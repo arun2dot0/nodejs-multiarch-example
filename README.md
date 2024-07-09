@@ -1,11 +1,11 @@
 # MultiArch Image Build demo 
 
+### using buildx ###
+
+```
 docker buildx create --use
 docker buildx ls
 
-### Push to repository ###
-
-```
 docker login
 
 docker tag nodejs-multiarch-example username/nodejs-multiarch-example:latest
